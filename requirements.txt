@@ -1,7 +1,7 @@
 streamlit
 pandas
-glob
-os
+#glob
+#os
 matplotlib
 plotly.express
 PIL
