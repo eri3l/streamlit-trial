@@ -61,12 +61,24 @@ r20.drop('Touch accidental', axis=1, inplace=True)
 
 stacked_rms = rms.apply(lambda x: x*100/sum(x), axis=1)
 stacked_20r = r20.apply(lambda x: x*100/sum(x), axis=1)
+# move cols for plotting
+cols_20r = ['Encounter', 'Look', 'Touch', 'Bite', 'Consumption']
+stacked_20r = stacked_20r[cols_20r]
 
+cols_rms = ['Encounter', 'Look', 'Touch', 'Bite']
+stacked_rms = stacked_rms[cols_rms]
+
+#### plot ####
 st.subheader("Proportion of interaction types per bird")
 
+colours_set1 = ['#2E91E5', '#54A24B', '#EECA3B', '#F58518', '#E45756']
+colours_set2 = ['rgb(57,105,172)', 'rgb(17,165,121)', 'rgb(242,183,1)', 'rgb(230,131,16)', 'rgb(231,63,116)']
+
 fig = px.bar(stacked_20r, x=stacked_20r.index,
-                y=['Bite', 'Consumption', 'Encounter', 'Look', 'Touch'], 
-                color_discrete_sequence=px.colors.qualitative.Plotly)
+                y = ['Encounter', 'Look', 'Touch', 'Bite', 'Consumption'], 
+                #y=stacked_20r.columns.tolist(),
+                #color_discrete_sequence=px.colors.qualitative.Plotly)
+                color_discrete_sequence=colours_set2)
 
 fig.update_layout(
     xaxis_title="Kakapo Name", yaxis_title="Proportion of interactions",
@@ -83,9 +95,11 @@ fig.update_layout(
 st.plotly_chart(fig)
 
 fig = px.bar(stacked_rms, x=stacked_rms.index,
-                y=['Bite', 'Encounter', 'Look', 'Touch'], 
+                #y=['Bite', 'Encounter', 'Look', 'Touch'], 
+                y=stacked_rms.columns.tolist(),
                 title="RMS proportion of interactions for each kakapo",
-                color_discrete_sequence=px.colors.qualitative.Vivid)
+                #color_discrete_sequence=px.colors.qualitative.Vivid)
+                color_discrete_sequence=colours_set2)
 
 fig.update_layout(
     xaxis_title="Kakapo Name", yaxis_title="Proportion of interactions",
@@ -97,15 +111,30 @@ fig.update_layout(
         'xanchor': 'center',
         'yanchor': 'top'},
 )
-
 st.plotly_chart(fig)
 
+#### images ####
 st.subheader("Trial setup images")
-st.caption("Bait station setup examples")
-st.image(["GetImage(5).jpeg", "GetImage(3).jpeg"])  # width
+#with st.columns(2):
+#	st.image(["GetImage(5).jpeg", "GetImage(3).jpeg"])
+#st.image(["GetImage(5).jpeg", "GetImage(3).jpeg"], width=300)  # width
+col1, col2 = st.columns(2)
+with col1:
+	st.caption("Bait station setup example")
+	st.image("GetImage(5).jpeg")
+with col2:
+	st.caption("Bait station setup example")
+	st.image("GetImage(3).jpeg")
 
-st.caption(" Bait weathering cages")
-st.image(["GetImage(7).jpeg", "GetImage(7).jpeg"])
+with col1:
+	st.caption("Bait weathering cages: 20R")
+	st.image("GetImage(7).jpeg")
+with col2:
+	st.caption("Bait weathering cages: RMS")
+	st.image("GetImage(6).jpeg")
 
-st.caption("Example: RMS left intact, 20R fully consumed")
-st.image(["GetImage.jpeg", "GetImage(1).jpeg"])
+with col1:
+	st.caption("Example: RMS left intact")
+	st.image("GetImage.jpeg")
+with col2:
+	st.caption("Example: 20R fully consumed")
