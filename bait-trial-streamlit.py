@@ -37,7 +37,7 @@ st.write("Number of bait stations in trial: ", kdata['RelativePath'].nunique())
 
 st.subheader("Number of interactions by:")
 st.markdown("- study design - Close and Away")
-st.markdown("bait type - cereal (20R) and ready-made meat-based sausage (RMS)")
+st.markdown("- bait type - cereal (20R) and ready-made meat-based sausage (RMS)")
 
 ABS = kdata[kdata['RelativePath'].str.contains("ABS")]
 CBS = kdata[kdata['RelativePath'].str.contains("CBS")]
