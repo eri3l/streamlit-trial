@@ -138,3 +138,4 @@ with col1:
 	st.image("GetImage.jpeg")
 with col2:
 	st.caption("Example: 20R fully consumed")
+	st.image("GetImage(1).jpeg")
