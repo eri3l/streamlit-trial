@@ -1,0 +1,7 @@
+streamlit
+pandas
+glob
+os
+matplotlib
+plotly.express
+PIL

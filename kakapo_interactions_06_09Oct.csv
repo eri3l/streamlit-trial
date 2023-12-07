@@ -1,0 +1,51 @@
+RelativePath,Date,Time,Species,KakapoID,InteractionRMS,Interaction20R,KakapoID2,InteractionRMS2,Interaction20R2,Notes
+ABS03, 06-Oct-2023, 17:38:06,Kakapo,Hurihuri,Encounter,Encounter,,,,datetime
+ABS03, 07-Oct-2023, 06:38:06,Kakapo,Hurihuri,Encounter,Encounter,,,,datetime
+ABS03, 07-Oct-2023, 11:06:45,Kakapo,Tuarima,Encounter,Encounter,,,,
+ABS03, 08-Oct-2023, 00:06:44,Kakapo,Tuarima,Encounter,Encounter,,,,
+CBS01, 08-Oct-2023, 09:35:04,Kakapo,Hakatere,Encounter,Encounter,,,,
+CBS01, 09-Oct-2023, 14:36:34,Kakapo,Hakatere,Encounter,Encounter,,,,
+CBS01, 09-Oct-2023, 17:31:28,Kakapo,Hakatere,Encounter,Encounter,,,,
+CBS01, 09-Oct-2023, 17:31:29,Kakapo,Hakatere,Encounter,Encounter,,,,
+CBS02, 06-Oct-2023, 13:28:22,Kakapo,Margaret-Maree,Encounter,Encounter,,,,
+CBS02, 07-Oct-2023, 09:56:18,Kakapo,Margaret-Maree,Encounter,Encounter,,,,
+CBS02, 07-Oct-2023, 16:57:40,Kakapo,Margaret-Maree,Encounter,Encounter,,,,
+CBS02, 08-Oct-2023, 09:45:58,Kakapo,Margaret-Maree,Encounter,Encounter,,,,
+CBS02, 08-Oct-2023, 12:09:00,Kakapo,Margaret-Maree,Encounter,Encounter,,,,
+CBS02, 08-Oct-2023, 14:00:08,Kakapo,Margaret-Maree,Encounter,Encounter,,,,"good video, ignoring bait"
+CBS02, 08-Oct-2023, 15:08:20,Kakapo,Margaret-Maree,Encounter,Encounter,,,,"good vid, ignoring bait"
+CBS02, 09-Oct-2023, 13:16:36,Kakapo,Margaret-Maree,Encounter,Encounter,,,,
+CBS03, 06-Oct-2023, 09:26:22,Kakapo,Kohitatea,Encounter,Bite,,,,"good vid, bite"
+CBS03, 06-Oct-2023, 09:27:40,Kakapo,Kohitatea,Encounter,Bite,,,,"good vid, play"
+CBS03, 06-Oct-2023, 09:28:00,Kakapo,Kohitatea,Encounter,Consumption,,,,
+CBS03, 06-Oct-2023, 09:28:24,Kakapo,Kohitatea,Encounter,Encounter,,,,play
+CBS03, 06-Oct-2023, 15:41:34,Kakapo,Kohitatea,Look,Encounter,,,,good RMS vid
+CBS03, 06-Oct-2023, 15:42:24,Kakapo,Kohitatea,Bite,Encounter,,,,NB
+CBS03, 06-Oct-2023, 15:42:48,Kakapo,Kohitatea,Encounter,Consumption,,,,
+CBS03, 06-Oct-2023, 15:55:40,Kakapo,Kohitatea,Look,Encounter,,,,eating stick
+CBS03, 06-Oct-2023, 15:56:22,Kakapo,Kohitatea,Encounter,Encounter,,,,
+CBS03, 06-Oct-2023, 16:08:56,Kakapo,Kohitatea,Look,Encounter,,,,
+CBS03, 06-Oct-2023, 16:09:18,Kakapo,Kohitatea,Look,Consumption,,,,
+CBS03, 07-Oct-2023, 17:08:12,Kakapo,Wehe-Po,Encounter,Encounter,,,,"good vid, ignoring bait"
+CBS03, 08-Oct-2023, 13:44:24,Kakapo,Wehe-Po,Encounter,Encounter,,,,
+CBS04, 06-Oct-2023, 13:47:52,Kakapo,Awarua,Encounter,Touch accidental,,,,good ignore
+CBS04, 06-Oct-2023, 18:32:34,Kakapo,Awarua,Encounter,Touch accidental,,,,
+CBS04, 09-Oct-2023, 09:39:24,Kakapo,Awarua,Encounter,Encounter,,,,
+CBS05, 09-Oct-2023, 12:34:42,Kakapo,Sue,Encounter,Encounter,,,,
+CBS07, 06-Oct-2023, 20:52:04,Kakapo,Kohitatea,Encounter,Encounter,,,,
+CBS07, 07-Oct-2023, 06:28:32,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS07, 07-Oct-2023, 09:52:04,Kakapo,Kohitatea,Encounter,Encounter,,,,
+CBS07, 07-Oct-2023, 22:27:58,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS07, 08-Oct-2023, 00:15:08,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS07, 08-Oct-2023, 00:21:11,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS07, 08-Oct-2023, 00:46:25,Kakapo,,,,,,,
+CBS07, 08-Oct-2023, 04:28:33,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS07, 08-Oct-2023, 11:27:58,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS07, 08-Oct-2023, 13:15:08,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS07, 08-Oct-2023, 13:21:10,Kakapo,Kuihi,Look,Encounter,,,,
+CBS07, 08-Oct-2023, 13:46:24,Kakapo,Kuihi,Encounter,Look,,,,
+CBS07, 08-Oct-2023, 17:28:32,Kakapo,Kuihi,Encounter,Look,,,,
+CBS09, 05-Oct-2023, 19:31:08,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS09, 06-Oct-2023, 19:31:08,Kakapo,Kuihi,Encounter,Encounter,,,,
+CBS09, 07-Oct-2023, 21:10:24,Kakapo,Kohitatea,None,None,,,,
+CBS09, 08-Oct-2023, 10:10:24,Kakapo,Kohitatea,Encounter,Encounter,,,,
